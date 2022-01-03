@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        style="@style/style_for_linearLayout_lent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_lent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rectangle" />
+
+        <TextView
+            android:id="@+id/tv_lent_title"
+            style="@style/style_for_tv_lent"
+            android:paddingHorizontal="@dimen/standard_dimens"
+            android:text="@string/tv_lent_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_lent_data"
+            style="@style/style_for_tv_lent"
+            android:layout_marginBottom="@dimen/standard_dimens"
+            android:paddingHorizontal="@dimen/standard_dimens"
+            android:text="@string/tv_lent_data" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

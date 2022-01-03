@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyInstagramDZ7</string>
+    <string name="home">home</string>
+    <string name="favorite">favorite</string>
+    <string name="avatar">avatar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_lent_title">joshua_l The game in Japan was amazing and I want to share some photos</string>
+    <string name="tv_lent_data">September 19</string>
+    <string name="todo">TODO</string>
+</resources>
